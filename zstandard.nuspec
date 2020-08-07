@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zstandard</id>
-    <version>1.4.0</version>
+    <version>1.4.5</version>
     <packageSourceUrl>https://github.com/maki-chan/choco.zstandard</packageSourceUrl>
     <owners>Michael Armbruster</owners>
 
