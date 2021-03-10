@@ -1,11 +1,11 @@
 $packageName = 'zstandard'
-$packageVersion = '1.4.5'
-$urlArray = @('https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-v1.4.5-win32.zip', 'https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-v1.4.5-win64.zip')
+$packageVersion = '1.4.9'
+$urlArray = @('https://github.com/facebook/zstd/releases/download/v1.4.9/zstd-v1.4.9-win32.zip', 'https://github.com/facebook/zstd/releases/download/v1.4.9/zstd-v1.4.9-win64.zip')
 $url = $urlArray[0]
-$checksum = '5c90dfda196e2fc5a130fb72d5a2586f50a3d48e57d15c7e3b07220a49c7c6320af1801782ea2be358c0a4911ee8e90e6ec6cd034b2a4631d3c8b058694bd563'
+$checksum = 'dc34b933f94c6a9ac0a71df033bacd58c6746cd781b84557acc81805e9d667aebe41dd68c11cc6d0a8a2f72b41ee889f33050b03bd5445397fddbe1140c77483'
 $checksumType = 'sha512'
 $url64 = $urlArray[1]
-$checksum64 = '371623c5bbc07e8dfe8ffecb5fc056aba92e3dc74f2a7f82a9d438a5a14e3118080b27c030aea4c5da88822f9d8f007b6dc4706e0936916c96927e6dfa2c8787'
+$checksum64 = '4a573f326c0a2bb9b6c8fb748603265569df2e96c2f771c043fb09e33611be6b2041ba362d889756cfeb4ccee994a004502d283848fd61d427e82022492c8e19'
 $checksumType64 = 'sha512'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
