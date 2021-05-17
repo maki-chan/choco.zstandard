@@ -23,6 +23,7 @@
     <description>Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.
 
 The project is provided as an open-source dual BSD and GPLv2 licensed C library, and a command line utility producing and decoding .zst, .gz, .xz and .lz4 files. Should your project require another programming language, a list of known ports and bindings is provided on Zstandard homepage.</description>
+    <releaseNotes>https://github.com/facebook/zstd/blob/v1.5.0/CHANGELOG</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
