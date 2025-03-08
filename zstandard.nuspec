@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zstandard</id>
-    <version>1.5.0</version>
+    <version>1.5.7</version>
     <packageSourceUrl>https://github.com/maki-chan/choco.zstandard</packageSourceUrl>
     <owners>Michael Armbruster</owners>
 
@@ -12,7 +12,7 @@
     <title>Zstandard</title>
     <authors>Facebook</authors>
     <projectUrl>https://facebook.github.io/zstd/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/facebook/zstd@v1.5.0/doc/images/zstd_logo86.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/facebook/zstd@v1.5.7/doc/images/zstd_logo86.png</iconUrl>
     <copyright>Copyright © 2016-present, Facebook, Inc. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/facebook/zstd/dev/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -23,7 +23,7 @@
     <description>Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.
 
 The project is provided as an open-source dual BSD and GPLv2 licensed C library, and a command line utility producing and decoding .zst, .gz, .xz and .lz4 files. Should your project require another programming language, a list of known ports and bindings is provided on Zstandard homepage.</description>
-    <releaseNotes>https://github.com/facebook/zstd/blob/v1.5.0/CHANGELOG</releaseNotes>
+    <releaseNotes>https://github.com/facebook/zstd/blob/v1.5.7/CHANGELOG</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
